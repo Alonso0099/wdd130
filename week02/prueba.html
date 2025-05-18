@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS con Unidades</title>
+    <style>
+        /* 🔹 Usando valores absolutos */
+        .box-px {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        /* 🔹 Usando valores relativos (%) */
+        .box-percent {
+            width: 50%;
+            height: 100px;
+            background-color: lightcoral;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        /* 🔹 Usando valores relativos (vw y vh) */
+        .box-vw-vh {
+            width: 30vw; /* 30% del ancho del viewport */
+            height: 20vh; /* 20% de la altura del viewport */
+            background-color: lightgreen;
+            text-align: center;
+            line-height: 20vh;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejemplo de CSS con Unidades</h1>
+
+    <div class="box-px">200px</div>
+    <div class="box-percent">50%</div>
+    <div class="box-vw-vh">30vw x 20vh</div>
+
+</body>
+</html>
