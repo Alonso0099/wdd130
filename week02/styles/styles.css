@@ -1,5 +1,9 @@
+:root {
+  --primary-color: darkblue;
+}
+
 nav {
-  background-color: darkblue;
+  background-color: var(--primary-color);
   padding: 10px;
 }
 
@@ -10,7 +14,8 @@ nav a {
 }
 
 h1 {
-  color: darkblue;
+  width: 100%;
+  max-width: 150px;
 }
 
 main img {
@@ -18,20 +23,20 @@ main img {
   height: auto;
   border: 1px solid black;
   padding: 2px;
-  box-shadow: 0 0 30px gray;
+  box-shadow: 0 0 10px gray;
 }
 p {
   padding: 0;
 }
 main {
-    max-width: 200px;
+    max-width: 80%;
 }
 aside {
-    width: 20rem;
+    width: 320px;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem; 
-    background-color: #008080;
+    background-color: rgb(0, 128, 128);
     color: black;
     text-align: center;
 }
@@ -40,6 +45,7 @@ aside img {
     height: auto;
 }
 footer {
+
     margin-top: 1rem;
     border-top: 1px solid #000;
     text-align: center;
