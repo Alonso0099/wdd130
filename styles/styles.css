@@ -42,7 +42,6 @@ p {
 
 aside {
   width: 25%;
-  height: auto;
   margin: 1rem;
   border: var(--border);
   padding: 1rem;
@@ -63,16 +62,24 @@ footer {
   text-align: center;
 }
 /*create calss: selector */
-.box {
+.box1{
   margin: 1rem;
   border: var(--border);
   padding: 1rem;
   background-color: #008080 ;
   color: #000;
 }
+.box {
+  width: 25%;
+  border: var(--border);
+  padding: 1%;
+  background-color: #008080 ;
+  color: #000;
+  text-align: center;
+}
 
 aside h2{
   position: absolute;
-  left: 150px;
+  left: 155px;
   color: navy;
 }
