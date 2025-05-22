@@ -42,6 +42,7 @@ p {
 
 aside {
   width: 25%;
+  height: auto;
   margin: 1rem;
   border: var(--border);
   padding: 1rem;
