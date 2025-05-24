@@ -1,6 +1,6 @@
 *{
-  margin: 1;
-  padding: 1;
+  margin: 1%;
+  padding: 1%;
   box-sizing: border-box;
 }
 :root{
@@ -80,6 +80,6 @@ footer {
 
 aside h2{
   position: absolute;
-  left: 155px;
+  left: 110px;
   color: navy;
 }
