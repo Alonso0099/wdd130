@@ -10,9 +10,7 @@
     --accent1-color: #FFFFFF;
     --accent2-color: #4B5354;
     --heading-font:"Inter Semi Bold" sans-serif;
-    --subheading-font:"Inter Medium" sans-serif;
-    --text-font:"Inter Regular" ,sans-serif;
-    --title-font:"Inter Bold" ,sans-serif;
+    --body-font:"Inter Regular" ,sans-serif;
 }
 
 header {
@@ -21,7 +19,7 @@ header {
 }
 
 body{
-    font-family: var(--text-font);
+    font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
@@ -32,7 +30,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 nav, p, section, article {
     margin: 16px;
