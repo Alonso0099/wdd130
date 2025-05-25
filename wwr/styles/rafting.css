@@ -9,10 +9,10 @@
     --secondary-color: #476278;
     --accent1-color: #FFFFFF;
     --accent2-color: #4B5354;
-    --heading-font:"Inter" Inter Semi Bold;
-    --subheading-font:"Inter" Inter Medium;
-    --text-font:"Inter" ,Inter Regular;
-    --title-font:"inter" ,Inter Bold;
+    --heading-font:"Inter Semi Bold" sans-serif;
+    --subheading-font:"Inter Medium" sans-serif;
+    --text-font:"Inter Regular" ,sans-serif;
+    --title-font:"Inter Bold" ,sans-serif;
 }
 
 header {
@@ -32,7 +32,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 nav, p, section, article {
     margin: 16px;
@@ -43,7 +43,7 @@ nav, p, section, article {
 }
 
 .hero {
-    position: top relative;
+    position: relative;
 }
 .hero img {
     display: block;
@@ -52,20 +52,24 @@ nav, p, section, article {
 }
 
 h1 {
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  padding: 16px;
-  text-align: center;
-  opacity: 0.7;
-  background-color: var(--accent1-color);
-  color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    font-size: 2rem;
 }
 
-article {
+.article img {
     position: absolute;
-    color: aqua;
-    border: #476278;
+    width: 200px;
+    height: auto;
+    color: var(--accent2-color);
+    border:2px solid var(--primary-color);
     margin: auto;
-    box-shadow: #9EBACE;
+    box-shadow:4px 4px 10px var(--accent2-color);
 }
