@@ -61,7 +61,7 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
-/*create calss: selector */
+
 .box1{
   margin: 1rem;
   border: var(--border);
