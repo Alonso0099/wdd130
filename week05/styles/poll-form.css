@@ -71,16 +71,20 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
-button{
-    margin:1rem;
+input[type="submit"] {
+    display: grid;
+    width: 150px;
+    justify-self: center;
+    margin: 1rem;
     background-color: navy;
     color: #fff;
     border: none;
-    border-radius: 10rem;
+    border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
 }
-button:hover {
+
+input[type="submit"]:hover {
     background-color: darkgreen;
 }
 
