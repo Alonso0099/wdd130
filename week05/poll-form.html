@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>WDD 130 | HTML Form - User Poll</title>
+        <link rel="stylesheet" href="styles/poll-form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:opsz@14..32&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+        <body>
+        <header>
+            <h1>WDD 130 |Alonso Alvarado| HTML Form - User Poll</h1>
+        </header>
+    
+            <main>
+                <form>
+                    <fieldset>
+                        <legend>Contact Information</legend><br><br>
+                        <label for="fullname"> Full Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                        <label for="useremail">Email</label>
+                        <input type="email" id="useremail" name="useremail"><br><br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Questions</legend><br>
+                        <label for="Browser">What is your favorite browser?</label><br>
+                        <select id="Browser" name="Browser">
+                            <option value="Chrome">Chrome</option>
+                            <option value="Firefox">Firefox</option>
+                            <option value="Safari">Safari</option>
+                            <option value="Edge">Edge</option>
+                        </select><br><br>
+                        <label for="pet">Do you have a household pet?</label><br>
+                        <input type="checkbox" id="pet" name="pet"><br><br>
+                        <label for="feedback">List the places you have lived</label><br>
+                        <textarea id="feedback" name="feedback" rows="4" placeholder="Provo Utah, Orem Utah, Pocatelo Idaho"></textarea><br>
+                    </fieldset>
+                    <input type="submit" id="submit" name="submit" value="Submit Poll">
+                </form>
+            </main>
+            <footer>
+                <p>2025 | HTML Form- User Poll Activity | Alonso Alvarado</p>
+            </footer>
+        </body>
+</html>
