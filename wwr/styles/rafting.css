@@ -6,7 +6,7 @@
   --text-light: #fff;
 }
 
-/* === GENERAL RESET === */
+/* GENERAL RESET */
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -337,7 +337,10 @@ button[type="submit"]:hover {
 /* === HEADINGS === */
 h2 {
   color: var(--accent2-color);
+  background: var(--text-dark);
   font-size: 2rem;
+  padding: 1%;
+  border: none;
 }
 
 h3 {
@@ -359,7 +362,6 @@ h3 {
     width: 90%;
   }
 }
-
 
 
 
