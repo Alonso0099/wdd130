@@ -337,6 +337,16 @@ input[type="submit"]:hover {
 /* === HEADING STYLES === */
 h2 {
     color: rgb(220, 220, 45);
+    background: #333;
+    padding: 2%;
+    width: 95.8%;
+}
+h3 {
+    color: rgb(220, 220, 45);
+    font-size: 30px;
+    background: #333;
+    padding: 0.80%;
+    width: 31%;
 }
 
 /* === RESPONSIVE DESIGN === */
