@@ -6,7 +6,7 @@
   --text-light: #fff;
 }
 
-/* GENERAL RESET */
+/* ===== RESET & BASE ===== */
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -24,7 +24,7 @@ a {
   color: inherit;
 }
 
-/* === HEADER === */
+/* ===== HEADER ===== */
 header {
   background-color: var(--primary-color);
   color: var(--accent2-color);
@@ -59,10 +59,9 @@ nav a {
   border-radius: 10px;
 }
 
-/* === HERO SECTION === */
+/* ===== HERO ===== */
 .hero {
   position: relative;
-  text-align: center;
 }
 
 .hero img {
@@ -71,28 +70,19 @@ nav a {
   display: block;
 }
 
-.hero h1 {
+.hero-content {
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
   color: white;
-  padding: 1rem;
-  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem 2rem;
   border-radius: 10px;
 }
 
-.hero-content {
-  position: absolute;
-  bottom: 10%;
-  width: 100%;
-  text-align: center;
-  font-size: 1.2rem;
-  color: white;
-}
-
-/* === INTRO SECTION === */
+/* ===== INTRO SECTION ===== */
 .intro {
   max-width: 900px;
   margin: 2rem auto;
@@ -102,7 +92,7 @@ nav a {
   line-height: 1.6;
 }
 
-/* === TRIPS PREVIEW (HOME) === */
+/* ===== TRIPS PREVIEW (HOME) ===== */
 .trips-preview {
   padding: 2rem;
   text-align: center;
@@ -123,9 +113,9 @@ nav a {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   width: 300px;
   padding: 1rem;
-  font-size: 1rem;
   text-align: center;
   transition: transform 0.3s ease;
+
 }
 
 .trip-card:hover {
@@ -149,7 +139,6 @@ nav a {
   padding: 0.7rem 1.5rem;
   background-color: #333;
   color: var(--accent2-color);
-  text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
   font-size: 1rem;
@@ -160,7 +149,7 @@ nav a {
   color: white;
 }
 
-/* === CALL TO ACTION (HOME) === */
+/* ===== CALL TO ACTION ===== */
 .call-to-action {
   background-color: #222;
   color: white;
@@ -169,7 +158,7 @@ nav a {
   margin-top: 2rem;
 }
 
-/* === ABOUT PAGE – HISTORY === */
+/* ===== ABOUT PAGE: HISTORY ===== */
 .history {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -179,7 +168,8 @@ nav a {
 
 .history-text {
   font-size: 1.2rem;
-  text-align: justify;
+  text-align: left;
+
 }
 
 .history-image img {
@@ -187,7 +177,7 @@ nav a {
   border-radius: 6px;
 }
 
-/* === ABOUT PAGE – ADVENTURE GALLERY === */
+/* ===== ABOUT PAGE: ADVENTURE GALLERY ===== */
 .adventure-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -206,17 +196,17 @@ nav a {
   border-radius: 6px;
 }
 
-/* === TRIPS PAGE === */
+/* ===== TRIPS PAGE MAIN ===== */
 .trips {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   background-color: #333;
-  color: white;
+  color: var(--text-dark);
 }
 
-/* === CONTACT PAGE – INFO === */
+/* ===== CONTACT PAGE: INFO ===== */
 .contact-info {
   max-width: 800px;
   margin: 0 auto;
@@ -231,7 +221,7 @@ iframe {
   margin-top: 1rem;
 }
 
-/* === CONTACT PAGE – TEAM === */
+/* ===== CONTACT PAGE: TEAM ===== */
 .employee-profiles {
   display: flex;
   justify-content: center;
@@ -259,7 +249,7 @@ iframe {
   margin-top: 0.5rem;
 }
 
-/* === CONTACT PAGE – FORM === */
+/* ===== CONTACT PAGE: FORM ===== */
 .contact-form {
   max-width: 800px;
   margin: 2rem auto;
@@ -313,10 +303,10 @@ button[type="submit"]:hover {
   background-color: #004080;
 }
 
-/* === FOOTER === */
+/* ===== FOOTER ===== */
 .footer1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #222;
   color: white;
@@ -334,13 +324,12 @@ button[type="submit"]:hover {
   width: 40px;
 }
 
-/* === HEADINGS === */
+/* ===== HEADINGS ===== */
 h2 {
   color: var(--accent2-color);
   background: var(--text-dark);
   font-size: 2rem;
   padding: 1%;
-  border: none;
 }
 
 h3 {
@@ -348,7 +337,7 @@ h3 {
   font-size: 1.5rem;
 }
 
-/* === RESPONSIVE === */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .trip-cards,
   .history {
@@ -361,7 +350,14 @@ h3 {
   .employee-profiles figure {
     width: 90%;
   }
+
+  .articule1 {
+    position: static;
+    transform: none;
+    margin: 1rem auto;
+  }
 }
+
 
 
 
