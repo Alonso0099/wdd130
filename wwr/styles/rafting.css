@@ -1,4 +1,4 @@
-/* --- HEADER --- */
+/*  HEADER  */
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
@@ -25,7 +25,7 @@ nav a {
     font-size: 2.2rem;
 }
 
-/* --- HERO --- */
+/*  HERO  */
 .hero {
     position: relative;
 }
@@ -86,7 +86,7 @@ nav a {
 }
 
 
-/* --- ADVENTURE GALLERY --- */
+/*  ADVENTURE GALLERY  */
 .adventure-gallery {
   display: flex;
   justify-content: space-around;
@@ -141,7 +141,7 @@ nav a {
     border-radius: 10px;
 }
 
-
+/* Contact Us page */
 .contact-info {
   max-width: 800px;
   margin: 0 auto;
@@ -264,7 +264,7 @@ input[type="submit"]:hover {
 }
 
 
-/* --- TRIPS PAGE --- */
+/*  TRIPS PAGE  */
 .trips {
   max-width: 1200px;
   margin: 0 auto;
@@ -328,11 +328,12 @@ input[type="submit"]:hover {
 }
 
 .trip-btn:hover {
-  background-color: #005fa3; /* más oscuro para hover */
+  background-color: #005fa3; 
 }
 
 .hero-content{
   display: grid;
   justify-content: center;
   font-size: 40px;
+  color: #333;
 }
